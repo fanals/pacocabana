@@ -1,0 +1,11 @@
+TITLE:MEAT AND PASTA:
+BEEF TENDERLOIN:Pepper, Garlic or Gorgonzola sauce:590
+SIRLOIN:Red wine sauce:690
+BABY BACK RIBS:Ribs BBQ sauce:490
+PORK TENDERLOIN:With a mushroom sauce:450
+KEBAB ORIENTAL:Chicken or beef kebab with tomato and onions:400/450
+CHICKEN FAJITAS::390
+PENNE WITH SHRIMPS:In white sauce:450
+NEW_TAB::
+SEAFOOD SPAGHETTI:With lobster in tomato sauce:550
+PASTA ALFREDO:Alfredo sauce with chicken:390

@@ -1,0 +1,46 @@
+#header
+{
+
+}
+
+#banner
+{
+   background: url('../images/bandeau.png');
+   width: 1000px;
+   height: 120px;
+}
+
+#music_button
+{
+   width: 105px;
+   height: 45px;
+   float: left;
+}
+
+#music_button img
+{
+   cursor: pointer;
+   float: left;
+}
+
+#music_playing
+{
+   margin-top: -45px;
+}
+
+#player1
+{
+   float: left;
+}
+
+#flags
+{
+   float: left;
+   height: 44px;
+   margin-left: 12px;
+}
+
+#flags a
+{
+   margin-left: 10px;   
+}

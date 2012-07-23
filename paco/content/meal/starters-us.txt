@@ -1,0 +1,16 @@
+TITLE:STARTERS AND SALADS:
+PLATE OF SPANISH HAM::350
+FISH CARPACCIO:Passion fruit vinegar:300
+ENVOLTINI DE BERENJENA:Grilled egg plants rolls with cheese:280
+BEEF CARPACCIO:Walnut oil and parmesan:350
+POELEE DE CHIPIRONES:Baby squids with garlic:300
+COCKTAIL DE CAMARONES:Shrimps cocktail sauce:300
+FISH CEVICHE::300
+FRIED CHICKEN NUGGETS:With tomato sauce:290
+PLATE OF GRILLED VEGETABLES::250
+CESAR SALAD:Chicken supreme, bacon, lettuce,br, tomato and parmesan:290
+NEW_TAB::
+SHRIMPS TEMPURA::300
+TIAN OF LOBSTER:Slice of lobster and red pepper in pesto sauce:350
+COLD LOBSTER:With three sauces:390
+SEAFOOD SALAD::320

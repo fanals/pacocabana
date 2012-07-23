@@ -1,0 +1,14 @@
+TITLE:POISSONS ET CRUSTACES:
+CREVETTE DE SANCHEZ:Sauce au choix Curry, Créole ou ail:420
+BROCHETTES DE CREVETTES:Sauce aigredouce:420
+FILET DE POISSON DU JOUR:Grillé ou frit:420
+PESCADO MAR Y TIERRA:Filet de poisson grillé sur un lit de haricots blancs,br, chorizo, jambon et oignons:450
+POISSON JITOMATO:Grillé sur un lit de tomate, oignons et olives noir:450
+POISSON ESCOMADO:Filet de poisson grillé et crevettes sauce blanche:450
+FILET DE MEROU SAMANA:Sauce coco:420
+CAZUELA DEL MAR:Soupe de poisson et crustacés cuite au four:520
+FRITO MIXTO:Assiette mixte de poissons et crustacés frits:650
+NEW_TAB::
+LANGOUSTE:Sauce à l'estragon:690
+GRILLADE DE LA MER:Poisson et crustacés:750
+LANGOUSTES GRILLES::990

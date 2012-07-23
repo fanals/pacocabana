@@ -1,0 +1,14 @@
+TITLE:PESCADOS Y MARISCOS:
+CAMARONES DE SANCHEZ:A su gusto Curry,Criolla o Ajo:420
+PINCHO DE CAMARONES:Salsa agridulce:420
+FILETE DE PESCADO DEL DIA:Plancha o frito:420
+PESCADO MAR Y TIERRA:A la plancha, habichuelas blancas,br,chorizo,jamon y cebolla:450
+PESCADO JITOMATO:A la plancha, tomate, cebolla, aceitunas negras:450
+PESCADO ESCOMADO:Filete con camarones en salsa blanca:450
+FILETE DE MERO SAMANA:En salsa de coco:420
+CAZUELA DEL MAR:Sopa de pescado y mariscos al horno:520
+FRITO MIXTO:De pescado y mariscos:650
+NEW_TAB::
+LANGOSTINOS:En salsa estragon:690
+PARILLADA DEL MAR:Pescados y mariscos:750
+PARILLADA DE LANGOSTA::990

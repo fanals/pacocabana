@@ -1,0 +1,151 @@
+#meal_body
+{
+    min-height: 640px;
+}
+
+table#meal_pres
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 49px;
+}
+
+table#meal_pres img
+{
+    float: left;
+    width: 190px;
+    border: solid gray;
+    margin-left: 20px;
+}
+
+table#meal_pres img:hover
+{
+    border: solid orange;
+}
+
+table#meal_pres a
+{
+    color: #D96214;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#side_menu
+{
+    width: 104px;
+    height: 10px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    margin-right: 27px;
+    margin-left: 30px;
+}
+
+#side_menu img
+{
+    width: 100px;
+    border: #BBB solid;
+    margin-top: 15px;
+}
+
+#side_menu .active
+{
+    width: 125px;
+    margin-left: -11px;
+    border: solid orange;
+}
+
+#side_menu img:hover
+{
+    border: orange solid;   
+}
+
+#side_menu a
+{
+    color: #D96214;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#meal_photo
+{
+    width: 379px;
+    margin: 10px;
+    margin-bottom: 0;
+    border: #BBB solid;
+}
+
+td
+{
+    font-family: verdana;
+}
+
+.ingredients
+{
+    font-size: 12px;
+    color: #444;
+}
+
+.name
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price
+{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#table_bar_restaurant
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#table_bar_restaurant img
+{
+    height: 250px;
+    border: #BBB solid;
+}
+
+#table_bar_restaurant img:hover
+{
+    border: #D96214 solid;
+}
+
+a.meal_title
+{
+    text-decoration: none;
+    color: #D96214;
+}
+
+td.td_meal_title
+{
+    text-align: center;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+.tab_title
+{
+    font-weight: normal;
+    color: #D96214;
+    font-family: verdana;
+    padding: 8px;
+}
+
+.tab_separators
+{
+    height: 10px;
+}
+
+.meal_tables
+{
+    float: left;
+    border: #bbb solid;
+    width: 385px;
+    margin: 10px;
+}

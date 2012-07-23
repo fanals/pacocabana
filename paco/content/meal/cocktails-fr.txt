@@ -1,0 +1,26 @@
+TITLE:COCKTAILS:
+PIÑA COLADA:Rhum blanc,Creme de coco,Lait,Jus d'ananas:200
+MARGARITA:Tequila,Triple sec,Jus de Citron,Sucre:200
+CAIPIRINA:Rhum blanc,Citron vert,Sucre:200
+CAIPIROSKA:Vodka,Citron vert,Sucre:200
+TEQUILA SUNRISE:Tequila,Jus d'orange,Sirop de grenadine:200
+DAIQUIRI FROZEN:Rhum blanc,Jus de citron,Triple Sec,Sucre:200
+MAI-TAI:Rhum blanc,Rhum brun,Triple sec,br,Jus de citron,Jugo d'orange,Fraise:200
+MOJITO:Rhum blanc,Citron vert,Menthe,br,Eau gazeuse,Sucre:200
+BLOODY MARY:Vodka,Jus de tomate,Sel,Poivre,Tabasco:200
+COCO LOCO:Rhum blanc,Creme de coco,br,Lait,Liqueur de coco:200
+COSMOPOLITAN:Vodka,Triple sec,Jus de cranberry et de citron:200
+BLUE LAGOON:Vodka,Curaçao,Jus d'ananas:200
+WHITE LADY:Gin,Triple sec,Jus de citron:200
+HASTA SIEMPRE:Gin,Jus de citron,Eau gazeuse,Sucre:200
+NEW_TAB::
+AMERICANO:Campari,Martini rouge,Eau gazeuse:220
+BLACK RUSSIAN:Vodka,Liqueur de café:220
+NEGRONI:Campari,Martini rouge,Gin:220
+LOLA’S:Malibu,Coca-Cola:200
+CUBA LIBRE:Rhum brun,Coca-Cola:200
+SANTO LIBRE:Rhum brun,Sprite:150
+GIN TONIC:Gin,Schweppes:150
+VODKA TONIC:Vodka,Schweppes:150
+COCKTAILS SANS ALCOOL::150
+MILKSHAKES::150

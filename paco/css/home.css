@@ -1,0 +1,28 @@
+#welcome
+{
+    width: 400px;
+    float: left;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+#container
+{
+    float: left;
+    margin: 0;
+}
+
+#map
+{
+    margin-left: 26px;
+    margin-top: 11px;
+}
+
+#map_title
+{
+    position: relative;
+    top: -136px;
+    left: 53px;
+    font-size: 17px;
+    color: #D9623C;
+}

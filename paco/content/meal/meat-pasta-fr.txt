@@ -1,0 +1,11 @@
+TITLE:VIANDE ET PATES:
+FILET DE BOEUF:Sauce au choix Poivre, Ail ou Gorgonzola:590
+ENTRECOTE:Sauce marchand de vin:690
+BABY BACK RIBS:Travers de porc sauce barbecue:490
+FILET MIGNON:Sauce aux champignons:450
+KEBAB ORIENTAL:Brochettes de poulet ou de boeuf, tomate et oignons:400/450
+FAJITAS AU POULET::390
+PENNE AUX CREVETTES:Sauce blanche:450
+NEW_TAB::
+SPAGHETTI DE LA MER:Aux langoustes en sauce tomate:550
+PATES ALFREDO:Sauce alfredo et poulet:390

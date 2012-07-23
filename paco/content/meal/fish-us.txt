@@ -1,0 +1,14 @@
+TITLE:FISH AND SEAFOOD:
+SHRIMPS OF SANCHEZ:Sauce Curry, Creole or Garlic:420
+SHRIMPS KEBAB:Sweet and sour sauce:420
+FISH FILET OF THE DAY:Grilled or fried:420
+FISH MAR Y TIERRA:Grilled fish filet with beans, chorizo,br, ham and onions:450
+FISH JITOMATO:Grilled fish filet, tomato, onions and black olives:450
+FISH ESCOMADO:Fish filet and shrimps with white sauce:450
+FISH FILET SAMANA:Coconut sauce:420
+CAZUELA DEL MAR:Fish and seafood soup baked in oven:520
+FRIED MIX PLATE:Fried fish and seafood:650
+NEW_TAB::
+LOBSTER:Estragon sauce:690
+MIXED GRILL:Fish and seafood:750
+GRILLED LOBSTER::990

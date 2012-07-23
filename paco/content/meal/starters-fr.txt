@@ -1,0 +1,16 @@
+TITLE:ENTREES ET SALADES:
+ASSIETTE DE JAMBON ESPAGNOL::350
+CARPACCIO DE POISSON:A la vinaigrette au fruit de la passion:300
+ENVOLTINI DE BERENJENA:Rouleaux d'aubergines grillées et fromage fondu:280
+CARPACCIO DE BOEUF:En huile de noix et parmesan:350
+POELEE DE CHIPIRONES:Scipions sautés à l'ail:300
+COCKTAIL DE CREVETTE:Sauce cocktail:300
+CEVICHE DE POISSON::300
+BEIGNETS DE POULET:A la sauce tomate:290
+ASSIETTE DE LEGUMES GRILLES::250
+SALADE CESAR:Filet de poulet, bacon, laitue,br, tomate et parmesan:290
+NEW_TAB::
+TEMPURA DE CREVETTE::300
+TIAN DE LANGOUSTE:Accompagné de poivrons en sauce pesto:350
+LANGOSTA FROIDE:Et son trio de sauces:390
+SALADE DE LA MER::320

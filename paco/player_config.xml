@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<audioplay>
+    <config>
+	<player playerid="1">
+	    <!-- music file -->
+	    <musicfile>song.mp3</musicfile>
+	
+	    <!-- how many times music will be played (0 - unlimited) -->
+	    <repeatTimes>0</repeatTimes>
+	
+	    <!-- should music starts automatically -->
+	    <autostart>no</autostart>
+	    
+	    <!-- button directory -->
+	    <buttondir>player_buttons/</buttondir>
+	    
+	    <!-- player mode - playstop or playpause -->
+	    <mode>playstop</mode>
+	    
+	    <!-- track id - must be unique -->
+	    <trackid>first</trackid>
+            
+	    <!-- use background color specified in 'backgroundColor' tag - no transparency -->
+	    <usebgcolor>no</usebgcolor>
+	    
+	    <!-- player alpha fade in duration -->
+	    <fadeindur>0</fadeindur>
+	    
+	    <!-- volume 0-100 -->
+	    <mastervol>20</mastervol>
+
+	    <!-- autostart delay in ms (default 500)-->
+	    <autostartdelay>0</autostartdelay>
+	    
+	    <!-- external interface feature (player could be controlled by JS play(), stop(), pause() methods) - default: no -->
+	    <einterface>yes</einterface>
+
+	    <!-- inititial buffering - music download starts immediately after player loads -->
+	    <initbuf>yes</initbuf>
+	</player>
+    </config>
+</audioplay>
+

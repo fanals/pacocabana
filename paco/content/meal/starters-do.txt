@@ -1,0 +1,16 @@
+TITLE:ENTRADAS Y ENSALADAS:
+PLATO DE JAMON IBERICO::350
+CARPACCIO DE PESCADO:A la vinegreta de chinola:300
+ENVOLTINI DE BERENJENA:Rollos de berenjena a la plancha y queso fundido:280
+CARPACCIO DE RES:En aciete de nueces y parmesano:350
+POELEE DE CHIPIRONES:Pequenos calamares al ajillo:300
+COCKTAIL DE CAMARONES:En salsa rosa:300
+CEVICHE DE PESCADO::300
+CHICHARONES DE POLLO:Con salsa tomate:290
+PLATO DE VEGETALES A LA PLANCHA::250
+ENSALADA CESAR:Suprema de pollo, tocineta, lechuga,br, tomate y parmesano:290
+NEW_TAB::
+TEMPURA DE CAMARONES::300
+TIAN DE LANGOSTA:Milhojas de langosta y pimientos en salsa pesto:350
+LANGOSTA FRIA:Con trio de salsa:390
+ENSALADA DEL MAR::320

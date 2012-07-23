@@ -1,0 +1,11 @@
+TITLE:CARNE Y PASTA:
+FILETE DE RES:Salsa a su gusto Pimiento, Ajo o Gorgonzola:590
+SIRLOIN:Salsa vino:690
+BABY BACK RIBS:Costillitas banadas con salsa barbecue:490
+FILETE DE CERDO:En salsa hongos:450
+KEBAB ORIENTAL:Pinchos de pollo o de res con tomate y cebolla:400/450
+FAJITAS DE POLLO::390
+PENNE CAMARONES:En salsa blanca:450
+NEW_TAB::
+SPAGHETTI DEL MAR:Con langosta en salsa roja:550
+PASTA ALFREDO:En salsa alfredo con pollo:390
