@@ -32,11 +32,11 @@ define('ABS_LANG', ABS_ROOT.'/lang');
 define('ABS_INCLUDE_LANG', ABS_INCLUDE_ROOT.'/lang');
 
 session_start();
+$_SESSION['hl'] = isset($_SESSION['hl']) ? $_SESSION['hl'] : 'do';
 $hl_array = array('fr', 'us', 'do');
+$hl_HL_array = array('fr_FR', 'en_US', 'es_DO');
 if (isset($_GET['hl']) && in_array($_GET['hl'], $hl_array))
     $_SESSION['hl'] = $_GET['hl'];
-if (isset($_SESSION['hl']) && in_array($_SESSION['hl'], $hl_array))
-    require_once(ABS_INCLUDE_LANG.'/'.$_SESSION['hl'].'-lang.php');
-else
-    require_once(ABS_INCLUDE_LANG.'/do-lang.php');
+$_SESSION['hl_HL'] = $hl_HL_array[array_search($_SESSION['hl'], $hl_array)];
+require_once(ABS_INCLUDE_LANG.'/'.$_SESSION['hl'].'-lang.php');
 ?>

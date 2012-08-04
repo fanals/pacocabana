@@ -1,28 +1,27 @@
 <?php
         session_start();
-        header("Content-type: text/css");   
-        /*header("HTTP/1.0 304 Not Modified");*/
+        header("Content-type: text/css");
+        /* Offset in the sprite menu for the right langage */
         switch ($_SESSION['hl'])
         {
             case 'fr' :
-                define ('SPRITE_MENU', 'spriteMenuFR.png');
+            	$offset = 0;  
                 break;
             case 'us' :
-                define ('SPRITE_MENU', 'spriteMenuUS.png');
+            	$offset = -680;
                 break;
-            default :
-                define ('SPRITE_MENU', 'spriteMenuDO.png');
+            default:
+            	$offset = -1360;
         }
         
-        /* MENU */
-  
+        /* Width in pixel for each part of the menu */
         $menu = array("choose" => 81,
-                      "home" => 94,
-                      "meal" => 89,
-                      "event" => 120,
-                      "press" => 94);
+                      "home" => 110,
+                      "meal" => 107,
+                      "event" => 157,
+                      "reservation" => 225);
 
-        $offset = 0;
+        /* Calculating width and offset in the sprite for each part of the menu */
         foreach ($menu as $key => $value)
         {
             $menu[$key] = array('width' => $value, 'offset' => $offset);
@@ -61,7 +60,8 @@
 
 	/* Link - common attributes */
 	ul#menu li a {
-		background: url(../images/<?= SPRITE_MENU; ?>) no-repeat scroll top left;
+		background: url(../images/spriteMenu.png) no-repeat;
+		background-position-y: 0px;
 		display:block;
 		height:45px;
 		position:relative;
@@ -69,7 +69,8 @@
 	
 	/* Span (on hover) - common attributes */
 	ul#menu li a span {
-	 	background: url(../images/<?= SPRITE_MENU; ?>) no-repeat scroll bottom left;
+	 	background: url(../images/spriteMenu.png) no-repeat;
+	 	background-position-y: -45px;
 		display:block;
 		position:absolute;
 		top:0;
@@ -87,49 +88,49 @@
         /* Specify width and background position attributes specifically for the class: "Choose" */
 	ul#menu li a.choose {
 		width:<?= $menu['choose']['width'] ?>px;
-                background-position:<?= $menu['choose']['offset'] ?>px 0px;
+                background-position-x:<?= $menu['choose']['offset'] ?>px;
 	}
 	/* Shift background position on hover for the class: "Choose" */
 	ul#menu li a.choose span {
-		background-position:<?= $menu['choose']['offset'] ?>px -45px;
+		background-position-x:<?= $menu['choose']['offset'] ?>px;
 	}
         
 	/* Specify width and background position attributes specifically for the class: "Accueil" */
 	ul#menu li a.home {
 		width:<?= $menu['home']['width'] ?>px;
-                background-position:<?= $menu['home']['offset'] ?>px 0px;
+                background-position-x:<?= $menu['home']['offset'] ?>px;
 	}
 	/* Shift background position on hover for the class: "Accueil" */
 	ul#menu li a.home span {
-		background-position:<?= $menu['home']['offset'] ?>px -45px;
+		background-position-x:<?= $menu['home']['offset'] ?>px;
 	}
 	
 	/* Specify width and background position attributes specifically for the class: "Meal" */
 	ul#menu li a.meal {
 		width:<?= $menu['meal']['width'] ?>px;
-		background-position:<?= $menu['meal']['offset'] ?>px 0px;
+		background-position-x:<?= $menu['meal']['offset'] ?>px;
 	}
 	/* Shift background position on hover for the class: "Meal" */
 	ul#menu li a.meal span {
-		background-position:<?= $menu['meal']['offset'] ?>px -45px;
+		background-position-x:<?= $menu['meal']['offset'] ?>px;
 	}
 
 	/* Specify width and background position attributes specifically for the class: "Event" */
 	ul#menu li a.event {
 		width:<?= $menu['event']['width'] ?>px;
-		background-position:<?= $menu['event']['offset'] ?>px 0px;
+		background-position-x:<?= $menu['event']['offset'] ?>px;
 	}	
 	/* Shift background position on hover for the class: "Event" */
 	ul#menu li a.event span {
-		background-position:<?= $menu['event']['offset'] ?>px -45px;
+		background-position-x:<?= $menu['event']['offset'] ?>px;
 	}
 	
-	/* Specify width and background position attributes specifically for the class: "Press" */
-	ul#menu li a.press {
-		width:<?= $menu['press']['width'] ?>px;
-		background-position:<?= $menu['press']['offset'] ?>px 0px;
+	/* Specify width and background position attributes specifically for the class: "Reservation" */
+	ul#menu li a.reservation {
+		width:<?= $menu['reservation']['width'] ?>px;
+		background-position-x:<?= $menu['reservation']['offset'] ?>px;
 	}	
-	/* Shift background position on hover for the class: "Press" */
-	ul#menu li a.press span {
-		background-position:<?= $menu['press']['offset'] ?>px -45px;
+	/* Shift background position on hover for the class: "reservation" */
+	ul#menu li a.reservation span {
+		background-position-x:<?= $menu['reservation']['offset'] ?>px;
 	}

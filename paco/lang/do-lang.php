@@ -1,4 +1,6 @@
 <?
+    setlocale(LC_TIME, 'es_ES');
+
     define('TXT_MENU', 'El menu del dia');
 
     // HOME
@@ -17,4 +19,7 @@
     define('ABS_INCLUDE_FISH', ABS_INCLUDE_CONTENT.'/meal/fish-do.txt');
     define('ABS_INCLUDE_MEAT_PASTA', ABS_INCLUDE_CONTENT.'/meal/meat-pasta-do.txt');
     define('ABS_INCLUDE_DESSERT', ABS_INCLUDE_CONTENT.'/meal/dessert-do.txt');
+
+    // EVENT
+    define('POSTED_ON', 'Publicado el');
 ?>

@@ -5,10 +5,10 @@
     var str_get_variables = "";
     function change_page(data)
     {
-        $("#body").fadeOut(500, function(){
+        $("#body").fadeOut(300, function(){
           $(this).empty();
           $(this).append(data);
-          $(this).fadeIn(500, function(){});
+          $(this).fadeIn(300, function(){});
         });
     }
 
@@ -63,13 +63,23 @@
     return (objCollection);
   }
   
-  function change_language(language)
+  function change_language(new_l)
   {
-    if (language == "fr" || language == "us" || language == "do")
+    // Dictionary containing each offset of the sprite menu for the first menu button
+    var l_dict = {'fr': 0, 'us': -680, 'do': -1360};
+    if (typeof l_dict[new_l] != 'undefined')
     {
-      $("#menu li .ajax_link").hide("clip", { direction: "horizontal" }, 500, function(){
-        $("#menu li a").css('background-image', 'url(images/spriteMenu'+language.toUpperCase()+'.png)');
-        $("#menu li a span").css('background-image', 'url(images/spriteMenu'+language.toUpperCase()+'.png)');
+      // Offset of the current first menu button
+      // For example us will give -680 (like in l_dict)
+      // The Number(element.slice(0, -2)) transforms element='18px' to 18
+      var old_l = Number(($('#firstMenuButton a').css('background-position-x')).slice(0, -2));
+      // Calculating the difference between the old langage and the new one
+      // To go from 'us' to 'do' for example it will be -1360 - -680 = -680
+      var offset = l_dict[new_l] - old_l;
+      $("#menu li a").hide("clip", { direction: "horizontal" }, 500, function() {
+        // Modifying each menu button to have the right position-x by adding the current position to the previously calculated offset
+        $(this).css('background-position-x', function(index, value) {return String(Number(value.slice(0, -2)) + offset) + 'px';});
+        $(this.firstChild).css('background-position-x', function(index, value) {return String(Number(value.slice(0, -2)) + offset) + 'px';});
         $(this).show("clip", { direction: "horizontal" }, 500);
         });
       if (lastHash.length == 0)
@@ -101,7 +111,10 @@ function ajax_link_click()
   else
   {
     url = url.replace(/\?.*$/gi, '');
-    $.history.load(url);
+    if (url == lastHash)
+      loadContent(url);
+    else
+      $.history.load(url);
   }
   str_get_variables = config_file_path;
   return false;

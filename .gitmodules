@@ -1,0 +1,3 @@
+[submodule "modules/myseat"]
+	path = modules/myseat
+	url = https://github.com/fanals/myseat.git
