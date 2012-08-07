@@ -1,0 +1,3 @@
+[submodule "modules/myseat"]
+	path = modules/myseat
+	url = git@github.com:fanals/myseat.git
