@@ -1,5 +1,5 @@
 <?
-    setlocale(LC_TIME, 'fr_FR');
+    setlocale(LC_TIME, 'fr_FR.UTF-8');
 
     define('TXT_MENU', 'Le menu du jour');
     

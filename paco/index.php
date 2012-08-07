@@ -1,14 +1,11 @@
-<?php header("Content-Type: text/html; charset=utf-8"); ?>
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
-	<head>
-		<?php include('head.php'); ?>
-	</head>
-	
+	<head><?php include('head.php'); ?></head>
 	<body>
-		<div id=main>
+		<div id='main'>
 			<?php include('header.php'); ?>
-			<div id=body>
+			<div id='body'>
 			<?php
 			if (isset($_GET['page']))
 			{

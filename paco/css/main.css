@@ -5,7 +5,7 @@ body {
   min-height: 700px;
 }
 
-h3, p, span {
+h1, h2, h3, h4, h5, p, span {
    font-family: verdana;
    color: #34312c;
 }

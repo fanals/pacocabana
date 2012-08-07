@@ -1,5 +1,5 @@
 <?
-    setlocale(LC_TIME, 'en_US');
+    setlocale(LC_TIME, 'en_US.UTF-8');
 
     define('TXT_MENU', 'Today\'s menu');
     
